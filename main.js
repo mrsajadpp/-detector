@@ -67,7 +67,7 @@ const checkWebsiteExists = async (url) => {
 };
 
 // Function to get all data about the website URL and trust score
-const getAllWebsiteData = async (url, retryCount) => {
+const getAllWebsiteData = async (url, retryCount = 3) => {
     try {
         const ipAddress = await getIpAddress(url);
         const isValidURLLength = await isURLLengthValid(url);

@@ -7,9 +7,11 @@
     "express": "^4.18.2",
     "install": "^0.13.0",
     "node-url-shortener": "^2.0.3",
+    "node-virustotal": "^3.35.0",
     "nodemon": "^3.0.3",
     "npm": "^10.3.0",
     "request": "^2.88.2",
+    "safe-browse-url-lookup": "^0.1.1",
     "url-expander": "^0.0.10",
     "whois": "^2.14.0"
   },
@@ -18,7 +20,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
